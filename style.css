@@ -1,0 +1,66 @@
+body{
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+    margin: 0;
+
+}
+h1{
+    font-size: 50px;
+}
+.brown-color{
+    color: brown;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.top-banner{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+
+
+.dream-big{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.experience-item{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 05%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left:10px;
+    border-radius: 10px;
+}
+.experience-area{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    border-left: ;
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(cyan)
+    border-image: slice 1;
+}
+#ful-stack-experience{
+    border-left:7px solid;
+    border-image: linear-gradient(salmon);
+    border-left: slice 1;
+}
