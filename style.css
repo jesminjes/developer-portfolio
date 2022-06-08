@@ -52,15 +52,17 @@ h1{
 .experience-area{
     background-image: url(exp-bg.png);
     background-repeat: no-repeat;
-    border-left: ;
 }
 #web-dev-experience{
     border-left: 7px solid;
-    border-image: linear-gradient(cyan)
+    border-image: linear-gradient(cyan);
     border-image: slice 1;
 }
 #ful-stack-experience{
     border-left:7px solid;
-    border-image: linear-gradient(salmon);
+    border-image: linear-gradient( orange);
     border-left: slice 1;
+}
+footer{
+    text-align: center;
 }
